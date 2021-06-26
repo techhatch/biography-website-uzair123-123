@@ -1,0 +1,198 @@
+/* Style the sidebar - fixed full height */
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(
+    315deg
+    , #678a5d 0%, #e4dcd1 74%);;
+
+}
+
+.header-styling{
+  background-color: #2b3329;
+  color: white;
+}
+.header-items
+{
+  border-bottom: 1px solid black;
+  height: 60px;
+  text-align: center;
+}
+
+ .header-items a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 60px;
+  text-align: center;
+  width: 50 px;
+}
+header .header-items a:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  background-color: #dbeed2;
+  color: black;
+  font-family: "Brush Script MT";
+  font-size: 30px;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+  background-color: #dbeed2;
+}
+
+nav{
+  padding-top: 40px;
+}
+
+
+.image-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 10%;
+  margin-left: 20%;
+  width: 20%;
+  height: 10%;
+  float: left;
+  
+  background-color: #ffffff;
+}
+
+.image-card img {
+  width: 100%;
+}
+
+.image-card:hover {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+/* Style the counter cards */
+.info-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-decoration-break: slice;
+  transition: 0.3s;
+  text-align: center;
+  background-color: #dbeed2;
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  width: 500px;
+  height: 400px;
+}
+
+table{
+  width: 100%;
+}
+
+.table-content{
+  padding-top: 20px;
+}
+
+
+.table-caption{
+  font-weight: bold;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+
+.info-card:hover {
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.info-card table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.info-card table tr td {
+  padding: 10px;
+  margin: auto;
+}
+
+
+
+.Personal-info-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-decoration-break: slice;
+  transition: 0.3s;
+  text-align: center;
+  background-color: #dbeed2;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 800px;
+  height: 400px;
+}
+
+.academic-info-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-decoration-break: slice;
+  transition: 0.3s;
+  text-align: center;
+  background-color: #dbeed2;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 900px;
+  height: 400px;
+}
+
+.skills-info-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-decoration-break: slice;
+  transition: 0.3s;
+  text-align: center;
+  background-color: #dbeed2;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 900px;
+  height: 400px;
+}
+.skills-info-card table tr td {
+  padding-top: 40px;
+  margin: auto;
+}
+.skills-info-card table tr th {
+  padding-top: 40px;
+  margin: auto;
+}
+
+.skills-info-card:hover{
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.academic-info-card table tr td{
+  padding-top: 40px;
+  margin: auto;
+}
+
+.academic-info-card:hover{
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.Personal-info-card table tr td{
+  padding-top: 30px;
+  margin: auto;
+}
+.Personal-info-card table tr th{
+  padding-top: 30px;
+  margin: auto;
+}
+
+
+.Personal-info-card:hover{
+  
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
